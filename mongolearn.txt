@@ -1,0 +1,14 @@
+for start -> enter mongosh on cmd
+now there will be given cloud hosting url
+
+--> for insert -> db.collection.insertOne({json});
+--> for all database -> show dbs 
+--> for all collections -> show collections
+--> show all object data in special collection -> db.collection.find()
+--> for add multiple object in same collection we use db.collection.insertMany([{},{},{}]) this is array of objects
+--> for findOne() return only first object of that collection
+--> we can special object in multiple object using db.collection.find({})
+we can also use limit like db.collection.find().limit(2) return first 2 object
+--> we can also update using updateOne or Many({},$set{})
+--> we can also deleteone or many({})
+--> but we use compass
